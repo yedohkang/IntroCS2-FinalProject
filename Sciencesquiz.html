@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> COLLEGE QUIZ </title> 
+	<style>
+	table.quiz {
+		width:24%;
+		margin-left: 38%;
+		margin-right: 38%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 5px solid lightgreen;
+		background-color: lightyellow;
+	}
+	table.welcome {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 6px solid lightgreen;
+		background-color: lightyellow;
+	}
+	table.instructions {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 5px solid lightyellow;
+		background-color: #EAADEA;
+	}
+	p {background-color: lightgreen; }
+	input.button {
+		background-color: lightyellow;
+		border: 4px solid #EAADEA;
+		color: black;
+		padding: 10px 30px;
+		margin-top: 5px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+	input.button:hover {
+		background-color:  #EAADEA;
+	}
+		</style>
+</head>
+<body style="background-color:lightblue">
+<font face="courier">
+<center>
+	<br>
+	<br>
+	<table class="welcome"> 
+		<td> <h1> <center> Find Your College!<br>(Sciences) </center> </h1> </td>
+	</table>
+	<br>
+	<br>
+	<table class="instructions">
+		<tr>
+			<td> <center> <br> Fill out EVERY question below to the best of your ability <br> <br> to determine your top potential college! <br> <br> After clicking the SUBMIT button you will receive your top potential college! </center><br> <br> </td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<table class="quiz">
+		<td> <br> <center>
+			<form action="collegeresultsSciences.py" method="GET">
+			<b> 0. Choose your SAT range: </b><br><br> 
+			<select name="question0">
+			  <option value="CornellUniversity"> above 2100 </option><br>
+			  <option value="NortheasternUniversity"> below 1900 </option>
+		  </select><br> <br>
+			<b> 1. Choose your ACT range: </b><br><br>
+			<select name="question1">
+			  <option value="CornellUniversity"> above 32 </option> <br>
+			  <option value="NortheasternUniversity"> below 32 </option>
+		  </select><br><br>
+			<b>2. Choose your GPA range:</b><br> <br>
+			<select name="question2">
+			  <option value="CornellUniversity"> above 3.9 </option><br>
+			  <option value="NortheasternUniversity"> below 3.9 </option> 
+		  </select><br><br>
+			  <br>
+			<center> <input class="button" type="submit" name="submit" value="SUBMIT"> </center>
+			</form>
+			<br>
+			<br> </center>
+	</td>
+	</table>
+</center>
+</font>
+</body>
+</html>

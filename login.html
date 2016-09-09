@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title> 
+			<style>
+				table {
+					width: 20%;
+					margin-left: 35%;
+					margin-right: 35%;
+					table-layout: fixed;
+					border-collapse: collapse;
+					border: 5px solid lightyellow;
+					background-color: lightgreen;
+				}
+				
+				table td {
+					width: 100%;
+					word-wrap: break-word;
+					padding: 10px;
+					font-size: 16px;
+				}
+				
+				input[type=textbox], input[type=password] {
+					width: 100%;
+					padding: 10px;
+					margin-bottom: 5px;
+					box-sizing: border-box;
+					font-size: 16px;
+					
+				}
+				
+				input[type=textbox]:focus, input[type=password]:focus {
+					width: 100%;
+					padding: 10px;
+					margin-bottom: 5px;
+					box-sizing: border-box;
+					font-size: 16px;
+					
+				}
+				
+				input.button {
+					background-color: lightyellow;
+					border: 4px solid lightblue;
+					color: black;
+					padding: 10px 30px;
+					margin-top: 5px;
+					cursor: pointer;
+					font-size: 16px;
+				}
+				
+				input.button:hover {
+					background-color: lightblue;
+				}
+		</style>
+</head>
+<body style="background-color:lightblue"> 
+<font face="courier">
+	<center>
+	<br>
+	<br><br><br><br><br>
+	<table>
+		<tr>
+			<td><center>Login</center></td> 
+		</tr>
+		<tr>
+			<td>
+				<form action="encryptedAccount.py" method="POST"> 
+					<input type="textbox" name="username" placeholder="Username" required>
+					<br>
+					<input type="password" name="password" placeholder="Password" required>
+					<br> <center>
+					<input class="button" type="submit" name="userAction" value="Login"> </center>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<table>
+		<tr>
+			<td><center>Register</center></td> 
+		<tr>
+			<td>
+				<form action="encryptedAccount.py" method="POST">
+				    <input type="textbox" name="name" placeholder="Name" required>
+					<br>
+					<input type="textbox" name="username" placeholder="Username" required>
+					<br>
+					<input type="password" name="password" placeholder="Password" required>
+					<br> <center>
+					<input class="button" type="submit" name="userAction" value="Create"> </center>
+				</form>
+			</td>
+		</tr>
+	</table>
+</font>
+</center>
+</body>
+</html>

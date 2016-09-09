@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MAJOR QUIZ </title>
+	<style>
+	table.quiz {
+		width: 38%;
+		margin-left: 31%;
+		margin-right: 31%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 5px solid #C1FFC1;
+		background-color: lightyellow;
+	}
+	table.welcome {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 6px solid lightblue;
+		background-color: lightyellow;
+	}
+	table.instructions {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border: 5px solid lightyellow;
+		background-color: lightblue;
+	}
+	p {background-color: lightgreen; }
+	input.button {
+		background-color: lightyellow;
+		border: 4px solid lightblue;
+		color: black;
+		padding: 10px 30px;
+		margin-top: 5px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+	
+	input.button:hover {
+		background-color: lightblue;
+	}
+		</style>
+</head>
+
+<body bgcolor="EAADEA">
+<font face="courier">
+<center>
+	<table class="welcome"> 
+		<td> <h1> <center> Find Your Major! </center> </h1> </td>
+	</table>
+	<br>
+	<br>
+	<table class="instructions">
+		<tr>
+			<td> <center> <br> Fill out EVERY question below to determine your top potential major! <br> <br> After clicking the SUBMIT button you will receive your result <br> <br> and you will then fill out a questionnaire to determine your top potential college. </center><br> </td>
+		</tr>
+	</table>
+	<br>
+	<br>
+        <form action="majorresults.py">
+	<table class="quiz">
+		<td> <br>
+			<b> 0. Choose your favorite activity: </b><br><br>
+			  <input type="radio" name="question0" value="SocialSciences"> hanging out with friends <br>
+			  <input type="radio" name="question0" value="PreMed"> volunteering <br>
+			  <input type="radio" name="question0" value="ComputerScience"> playing video games <br>
+			  <input type="radio" name="question0" value="Sciences"> discovering something new <br>
+			  <input type="radio" name="question0" value="Engineering"> doing DIYs <br>
+			  <input type="radio" name="question0" value="Business"> shopping for the best deals <br> <br>
+			<b> 1. Describe your personality in one word: </b><br><br>
+			  <input type="radio" name="question1" value="SocialSciences"> patient <br>
+			  <input type="radio" name="question1" value="PreMed"> helpful <br>
+			  <input type="radio" name="question1" value="ComputerScience"> logical <br>
+			  <input type="radio" name="question1" value="Sciences"> curious <br>
+			  <input type="radio" name="question1" value="Engineering"> creative <br>
+			  <input type="radio" name="question1" value="Business"> diligent <br><br>
+			<b>2. Choose one thing to do for the rest of your life:</b><br> <br>
+			  <input type="radio" name="question2" value="SocialSciences"> talking with people <br>
+			  <input type="radio" name="question2" value="PreMed"> wear the same thing everyday <br>
+			  <input type="radio" name="question2" value="ComputerScience"> always having to fix errors <br>
+			  <input type="radio" name="question2" value="Sciences"> working on the same project <br>
+			  <input type="radio" name="question2" value="Engineering"> always having to think of something new <br>
+			  <input type="radio" name="question2" value="Business"> have long work hours <br><br>
+			<b> 3. How long do you want to spend in school?</b><br><br>
+			  <input type="radio" name="question3" value="SocialSciences"> 4 years and interning <br>
+			  <input type="radio" name="question3" value="PreMed"> 11 years <br>
+			  <input type="radio" name="question3" value="ComputerScience"> 6 years <br>
+			  <input type="radio" name="question3" value="Sciences"> 14 years <br>
+			  <input type="radio" name="question3" value="Engineering"> 4 years <br>
+			  <input type="radio" name="question3" value="Business"> 5 years <br><br>
+  			<b>4. How much do you care about money? </b><br><br>
+  			  <input type="radio" name="question4" value="SocialSciences"> I care more about what other people want <br>
+  			  <input type="radio" name="question4" value="PreMed"> I would rather help people <br>
+  			  <input type="radio" name="question4" value="ComputerScience"> I care but I love my job more <br>
+  			  <input type="radio" name="question4" value="Sciences"> I only want to benefit others <br>
+  			  <input type="radio" name="question4" value="Engineering"> Sure I guess <br>
+  			  <input type="radio" name="question4" value="Business"> I like to take risks <br><br>
+  			<b>5. Do you work well with people?</b><br><br>
+  			  <input type="radio" name="question5" value="SocialSciences"> I work best with close relations <br>
+  			  <input type="radio" name="question5" value="PreMed"> Yes I can't do anything without a team <br>
+  			  <input type="radio" name="question5" value="ComputerScience"> I need people to review my work <br>
+  			  <input type="radio" name="question5" value="Sciences"> I strive in solitude <br>
+  			  <input type="radio" name="question5" value="Engineering"> I like brainstorming with other people for ideas <br>
+  			  <input type="radio" name="question5" value="Business"> I like to get my ideas across to other people <br><br>
+			<b>6. How do you like to help people? </b><br><br>
+			  <input type="radio" name="question6" value="SocialSciences"> by talking with them <br>
+			  <input type="radio" name="question6" value="PreMed"> by easing their pain <br>
+			  <input type="radio" name="question6" value="ComputerScience"> by making daily life easier <br>
+			  <input type="radio" name="question6" value="Sciences"> by showing them a new way to solve their problems <br>
+			  <input type="radio" name="question6" value="Engineering"> by helping them learn from their mistakes <br>
+			  <input type="radio" name="question6" value="Business"> by giving them your time <br> <br> <br>
+			<center> <input class="button" type="submit" name="submit" value="SUBMIT"> </center>
+			<br>
+			<br>
+	</td>
+	</table>
+        </form>
+</center>
+</font>
+</body>
+</html>

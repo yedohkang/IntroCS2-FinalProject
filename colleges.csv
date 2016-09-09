@@ -1,0 +1,13 @@
+name,region,major,SAT,ACT,GPA,acceptancerate
+HarvardUniversity,Northeast,SocialSciences,above2100,above32,above3.9,5.20%
+PrincetonUniversity,MidAtlantic,PreMed,above2100,above32,above3.9,6.50%
+StanfordUniversity,WestCoast,ComputerScience,above2100,above32,above4.0,4.80%
+CornellUniversity,Northeast,Sciences,above2100,above32,above3.8,14%
+MassachusettsInstituteofTechnology,Northeast,Engineering,above2100,above33,above4.0,8%
+CarnegieMellonUniversity,MidAtlantic,ComputerScience,above2100,above31,above3.7,16.20%
+UniversityofPennsylvania,MidAtlantic,Business,above2100,above32,above3.8,9.40%
+UniversityofMichigan,MidWest,PreMed,above1900,above30,above3.7,26.20%
+NewYorkUniversity,Northeast,SocialSciences,above1900,above28,above3.7,31%
+BostonCollege,Northeast,Business,above1900,above29,above3.6,29%
+NortheasternUniversity,Northeast,Sciences,above1900,above30,above 3.8,29%
+RiceUniversity,Southwest,Engineering,above1900,above30,above3.8,14%
