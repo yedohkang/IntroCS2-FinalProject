@@ -118,7 +118,7 @@ if buttonFromForm == "Login": # user requested "log me in"
 	<tr> \
 		<td> <center> \
 <h3> Let's take the quiz again! </h3> </center> </td> </tr> </table> \
-<p class="start"> <a href="http://bart.stuy.edu/~yedoh.kang/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~yedoh.kang/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
 </center> \
 </font> \
 </body> \
@@ -154,7 +154,7 @@ if buttonFromForm == "Login": # user requested "log me in"
 <br> \
 <br> \
 <h1> You seemed to have entered in the wrong information! <h1>
-<p class="start"> <a href="http://bart.stuy.edu/~yedoh.kang/project/login.html" class="button"> Click HERE to Try Again! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~yedoh.kang/project/login.html" class="button"> Click HERE to Try Again! </a> \
 </center> \
 </font> \
 </body> \
@@ -197,7 +197,7 @@ else:   # user requested "sign me up"
 <br> \
 <br> \
 <h1> Hi, someone has already made an account with your username! </h1> \
-<p class="start"> <a href="http://bart.stuy.edu/~yedoh.kang/project/login.html" class="button"> Click HERE to Register Again! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~yedoh.kang/project/login.html" class="button"> Click HERE to Register Again! </a> \
 </center> \
 </font> \
 </body> \
@@ -237,7 +237,7 @@ else:   # user requested "sign me up"
 <br> \
 <br> \
 <h1> NAME, you have been successfully logged in! </h1> \
-<p class="start"> <a href="http://bart.stuy.edu/~yedoh.kang/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~yedoh.kang/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
 </center> \
 </font> \
 </body> \

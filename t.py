@@ -81,7 +81,7 @@ else:   # user requested "sign me up"
 <br> \
 <br> \
 <h1> NAME, someone has already made an account with your username! </h1> \
-<p class="start"> <a href="http://bart.stuy.edu/~madeline.wong/project/login.html" class="button"> Click HERE to Register Again! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~madeline.wong/project/login.html" class="button"> Click HERE to Register Again! </a> \
 </center> \
 </font> \
 </body> \
@@ -120,7 +120,7 @@ else:   # user requested "sign me up"
 <br> \
 <br> \
 <h1> NAME, you have been successfully logged in! </h1> \
-<p class="start"> <a href="http://bart.stuy.edu/~madeline.wong/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
+<p class="start"> <a href="http://clyde.stuy.edu/~madeline.wong/project/majorquiz.html" class="button"> Click HERE to Start the Major Quiz! </a> \
 </center> \
 </font> \
 </body> \

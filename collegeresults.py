@@ -32,7 +32,7 @@ majorlistnumber = newlist.index(majornumber)
 majorlist = ['Social Sciences', 'PreMed', 'Computer Science', 'Sciences', 'Engineering', 'Business']
 major = majorlist[majorlistnumber]
 
-link = ["http://bart.stuy.edu/~madeline.wong/project/SocialSciencesquiz.html", "http://bart.stuy.edu/~madeline.wong/project/PreMedquiz.html", "http://bart.stuy.edu/~madeline.wong/project/ComputerSciencequiz.html", "http://bart.stuy.edu/~madeline.wong/project/Sciencesquiz.html", "http://bart.stuy.edu/~madeline.wong/project/Engineeringquiz.html", "http://bart.stuy.edu/~madeline.wong/project/Businessquiz.html"]
+link = ["http://clyde.stuy.edu/~madeline.wong/project/SocialSciencesquiz.html", "http://clyde.stuy.edu/~madeline.wong/project/PreMedquiz.html", "http://clyde.stuy.edu/~madeline.wong/project/ComputerSciencequiz.html", "http://clyde.stuy.edu/~madeline.wong/project/Sciencesquiz.html", "http://clyde.stuy.edu/~madeline.wong/project/Engineeringquiz.html", "http://clyde.stuy.edu/~madeline.wong/project/Businessquiz.html"]
 
 html = '''
 <!DOCTYPE html>

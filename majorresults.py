@@ -36,7 +36,7 @@ majorlist = ['Social Sciences', 'PreMed', 'Computer Science', 'Sciences', 'Engin
 major = majorlist[majorlistnumber]
 
 #finds the links for the next step once you have your major
-link = ["http://bart.stuy.edu/~yedoh.kang/project/SocialSciencesquiz.html", "http://bart.stuy.edu/~yedoh.kang/project/PreMedquiz.html", "http://bart.stuy.edu/~yedoh.kang/project/ComputerSciencequiz.html", "http://bart.stuy.edu/~yedoh.kang/project/Sciencesquiz.html", "http://bart.stuy.edu/~yedoh.kang/project/Engineeringquiz.html", "http://bart.stuy.edu/~yedoh.kang/project/Businessquiz.html"]
+link = ["http://clyde.stuy.edu/~yedoh.kang/project/SocialSciencesquiz.html", "http://clyde.stuy.edu/~yedoh.kang/project/PreMedquiz.html", "http://clyde.stuy.edu/~yedoh.kang/project/ComputerSciencequiz.html", "clyde://bart.stuy.edu/~yedoh.kang/project/Sciencesquiz.html", "http://clyde.stuy.edu/~yedoh.kang/project/Engineeringquiz.html", "http://clyde.stuy.edu/~yedoh.kang/project/Businessquiz.html"]
 
 html = '''
 <!DOCTYPE html>
